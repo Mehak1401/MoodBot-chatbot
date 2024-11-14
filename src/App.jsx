@@ -50,7 +50,7 @@ function App() {
 
   return (
     <div className="fixed inset-0">
-      <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 z-0"></div>
+      <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-purple-400 via-pink-300 to-red-300 z-0 animate-gradient"></div>
       {/* Video Background */}
       <video 
         className="absolute inset-0 w-full h-full object-cover" 

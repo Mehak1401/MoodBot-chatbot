@@ -32,6 +32,17 @@
   }
 }
 
+@keyframes gradient-scroll {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Apply the animation */
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-scroll 10s ease infinite;
+}
 /* Apply Animation */
 .fade-in {
   animation: fadeIn 1s ease-out;
